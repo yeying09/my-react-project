@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NameCard from './components/NameCard';
 import LikesButton from './components/LikesButton';
+import DigitalClock from './components/DigitalClock';
 
 const tags = ['恐龙', '足球小子'];
 
@@ -14,6 +15,7 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                     <h1 className="App-title">Welcome to React</h1>
                 </header>
+                <DigitalClock></DigitalClock>
                 <LikesButton></LikesButton>
                 <NameCard name="becky" number={1234567890} isHuman tags={tags}/>
                 <p className="App-intro">
